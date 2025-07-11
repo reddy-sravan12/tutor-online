@@ -1,7 +1,6 @@
-import { AppContext, hours, startWeek, useAppContext, weekdays } from "@/pages";
+import {  hours, startWeek, useAppContext, weekdays } from "@/pages";
 import React from "react";
-import { useContext } from "react";
-import { format, addHours, startOfWeek, addDays } from 'date-fns';
+import { format, addDays } from 'date-fns';
 
 const Calendar=()=>{
     const { availability, role, setSelectedSlot } = useAppContext();

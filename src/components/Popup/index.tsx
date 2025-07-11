@@ -1,6 +1,6 @@
-import { AppContext, AppContextType, useAppContext } from "@/pages";
+import { useAppContext } from "@/pages";
 import { Dialog } from "@mui/material";
-import { FormEvent, ReactElement, useContext, useState } from "react";
+import { FormEvent, ReactElement,  useState } from "react";
 
 const BookingModal = (): ReactElement => {
     const { selectedSlot, bookSlot } = useAppContext();

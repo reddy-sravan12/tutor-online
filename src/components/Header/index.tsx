@@ -1,5 +1,4 @@
-import { AppContext, AppContextType, useAppContext } from "@/pages";
-import { useContext } from "react";
+import { useAppContext } from "@/pages";
 
 const Header=()=> {
   const { role, setRole } = useAppContext();
