@@ -51,7 +51,7 @@ export function useAppContext() {
 for (let d = 0; d < 5; d++) {
   const day = format(addDays(startWeek, d), 'yyyy-MM-dd');
   initialAvailability[day] = {};
-  for (let h of hours) {
+  for (const h of hours) {
     initialAvailability[day][h] = null;
   }
 }
